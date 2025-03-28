@@ -120,6 +120,18 @@ note-item small {
   color: #888;
 }
 
+footer {
+  display: flex;
+  flex: 1;
+
+  padding: 10px;
+  font-weight: bold;
+}
+
+footer p {
+  margin-inline: auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   #notes-grid {
