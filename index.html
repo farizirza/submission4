@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- App Bar -->
+  <app-bar title="Notes App"></app-bar>
+
+  <!-- Formulir Tambah Catatan -->
+  <section id="note-form-container">
+    <note-form></note-form>
+  </section>
+
+  <!-- Daftar Catatan -->
+  <section id="notes-list">
+    <h2>Daftar Catatan</h2>
+    <div id="notes-container">
+      <div id="notes-grid"></div>
+    </div>
+  </section>
+
+  <!-- Import Script -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
